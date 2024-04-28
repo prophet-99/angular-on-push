@@ -1,0 +1,12 @@
+.sh-parent-title {
+  border-radius: 0.25rem;
+  border: 2px dashed var(--border-green);
+  color: var(--border-green);
+  padding: 1em 1rem;
+  text-align: center;
+}
+.sh-parent-container {
+  display: flex;
+  gap: 10rem;
+  margin-block-end: 2rem;
+}

@@ -1,0 +1,9 @@
+.sh-family-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  h1 {
+    color: var(--dark-green);
+    padding-block-end: 2rem;
+  }
+}
