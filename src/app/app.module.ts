@@ -7,6 +7,7 @@ import { ParentComponent } from './components/parent/parent.component';
 import { ChildDefaultComponent } from './components/child-default/child-default.component';
 import { ChildOnpushComponent } from './components/child-onpush/child-onpush.component';
 import { GrandchildOnpushComponent } from './components/grandchild-onpush/grandchild-onpush.component';
+import { ProgrammaticCdrComponent } from './components/programmatic-cdr/programmatic-cdr.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { GrandchildOnpushComponent } from './components/grandchild-onpush/grandc
     ChildDefaultComponent,
     ChildOnpushComponent,
     GrandchildOnpushComponent,
+    ProgrammaticCdrComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

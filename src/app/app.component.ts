@@ -12,6 +12,7 @@ import { Family } from './models/family.model';
         Update family data
       </button>
     </section>
+    <app-programmatic-cdr />
   `,
   styleUrl: './app.component.scss',
 })
@@ -24,6 +25,7 @@ export class AppComponent {
   };
 
   public updateFamilyData(): void {
-    this.familyData.grandchild = 'Little Johnny Jr.';
+    // this.familyData.grandchild = 'Little Johnny Jr.';
+    this.familyData = { ...this.familyData, grandchild: 'Little Johnny Jr.' };
   }
 }

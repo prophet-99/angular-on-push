@@ -6,11 +6,8 @@ import { Family } from '../../models/family.model';
   template: `
     <h2 class="sh-parent-title">Parent: {{ family.parent }}</h2>
     <section class="sh-parent-container">
-      <app-child-default [childName]="family.childBrother" />
-      <app-child-onpush
-        [childName]="family.child"
-        [grandchildName]="family.grandchild"
-      />
+      <app-child-default [family]="family" />
+      <app-child-onpush [family]="family" />
     </section>
   `,
   styleUrl: './parent.component.scss',
